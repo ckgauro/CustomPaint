@@ -13,11 +13,11 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(
-            icon: Icon(FontAwesomeIcons.paintRoller),
-            onPressed: () {
-              //
-            }),
+        // leading: IconButton(
+        //     icon: Icon(FontAwesomeIcons.paintRoller),
+        //     onPressed: () {
+        //       //
+        //     }),
         title: Container(
           alignment: Alignment.center,
           child: Text("Google I/O 2019", style: TextStyle()),
